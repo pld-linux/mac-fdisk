@@ -18,6 +18,10 @@ mac-fdisk is a Debian version of pdisk - partition utilitiy for
 PowerPC computers. pmac-fdisk is a version of the PC partition format
 utilities for PowerPC computers.
 
+%description -l pl
+mac-fdisk to Debianowa wersja pdiska - narzêdzia tworz±cego partycje
+dla komputerów PowerPC.
+
 %prep
 %setup -q -n %{name}-%{version}.orig
 zcat %{SOURCE1} | patch -p1
