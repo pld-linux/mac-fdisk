@@ -2,13 +2,13 @@ Summary:	A partitioning tool for Apple Macintosh-style partitioned disks
 Summary(pl):	Narzêdzie do partycjonowania dysków Apple Macintosh
 Name:		mac-fdisk
 Version:	0.1
-Release:	0.1
+Release:	0.11
 License:	BSD-like (Apple Computer, Inc.)
 Group:		Applications/System
 Source0:	http://http.us.debian.org/debian/pool/main/m/mac-fdisk/%{name}_%{version}.orig.tar.gz
 # Source0-md5:	24476329fe86ef6ccf222e233e2a99f1
-Source1:	http://http.us.debian.org/debian/pool/main/m/mac-fdisk/%{name}_%{version}-8.diff.gz
-# Source1-md5:	5dea1f9f8d44fe89c00322c315633443
+Source1:	http://http.us.debian.org/debian/pool/main/m/mac-fdisk/%{name}_%{version}-11.diff.gz
+# Source1-md5:	1e056ff026ba7acf3ea05baa0c1d5216
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_sbindir	/sbin
