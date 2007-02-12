@@ -1,7 +1,7 @@
 %define _ver    0.1
 %define _rel    13
 Summary:	A partitioning tool for Apple Macintosh-style partitioned disks
-Summary(pl):	Narzêdzie do partycjonowania dysków Apple Macintosh
+Summary(pl.UTF-8):   NarzÄ™dzie do partycjonowania dyskÃ³w Apple Macintosh
 Name:		mac-fdisk
 Version:	%{_ver}.%{_rel}
 Release:	1
@@ -20,10 +20,10 @@ mac-fdisk is a Debian version of pdisk - partition utilitiy for
 PowerPC computers. pmac-fdisk is a version of the PC partition format
 utilities for PowerPC computers.
 
-%description -l pl
-mac-fdisk to debianowa wersja pdiska - narzêdzia tworz±cego partycje
-dla komputerów PowerPC. pmac-fdisk to wersja narzêdzi tworz±cych
-partycje PC dla komputerów PowerPC.
+%description -l pl.UTF-8
+mac-fdisk to debianowa wersja pdiska - narzÄ™dzia tworzÄ…cego partycje
+dla komputerÃ³w PowerPC. pmac-fdisk to wersja narzÄ™dzi tworzÄ…cych
+partycje PC dla komputerÃ³w PowerPC.
 
 %prep
 %setup -q -n %{name}-%{_ver}.orig
