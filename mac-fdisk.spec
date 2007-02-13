@@ -1,7 +1,7 @@
 %define _ver    0.1
 %define _rel    13
 Summary:	A partitioning tool for Apple Macintosh-style partitioned disks
-Summary(pl.UTF-8):   Narzędzie do partycjonowania dysków Apple Macintosh
+Summary(pl.UTF-8):	Narzędzie do partycjonowania dysków Apple Macintosh
 Name:		mac-fdisk
 Version:	%{_ver}.%{_rel}
 Release:	1
